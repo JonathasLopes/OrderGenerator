@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .order-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 710px) {
+    body {
+        overflow-x: auto !important;
+    }
+
+    .orderList-header-container {
+        width: 500px;
+    }
+
+    .pagination-container {
+        align-self: flex-start !important;
+    }
+
+    .table-container {
+        width: 500px;
+        min-width: 510px;
+    }
+
+    .orderList-container {
+        overflow-x: auto !important;
+    }
+
+    .body-main {
+        overflow-x: auto !important;
+    }
+
+    .content {
+        overflow-x: auto !important;
+    }
+
+    .filter-border-container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .body-main .content>h1 {
+        font-size: 24px;
+    }
+
+    .footer-container {
+        font-size: 16px !important;
+    }
+
+    .active-orderType-container,
+    .quantity-price-container {
+        flex-direction: column;
+    }
+
+    .active-container,
+    .order-type-container,
+    .quantity-container,
+    .price-container {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .active-container,
+    .quantity-container {
+        margin-right: 0px !important;
+    }
+
+    .order-type-container,
+    .price-container {
+        margin-left: 0px !important;
+    }
+
+    .quantity-container,
+    .price-container {
+        margin-bottom: 0px !important;
+    }
+
+    .go-to-list {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .body-main .content>h1 {
+        font-size: 20px;
+    }
+
+    .footer-container {
+        font-size: 12px !important;
+    }
+}
