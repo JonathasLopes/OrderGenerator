@@ -1,26 +1,26 @@
 # OrderGenerator
 
-**OrderGenerator** is a frontend application designed to simulate order creation workflows in a streamlined and modular way. It’s built using modern React standards and follows clean component architecture, making it a solid base for scalable UI development.
+**OrderGenerator** é uma aplicação frontend desenvolvida para um processo seletivo que simula a criação de pedidos. Foi construída utilizando os padrões modernos do React e segue uma arquitetura limpa de componentes, sendo uma base sólida para o desenvolvimento de interfaces escaláveis.
 
-## Description
+## Descrição
 
-This project generates and displays simulated orders, with clear separation of UI components, services, and application logic. It leverages TypeScript for type safety and Vite for fast development builds. Ideal for showcasing frontend architecture in technical assessments.
+Este projeto gera e exibe pedidos simulados, com uma separação clara entre componentes de interface, serviços e lógica da aplicação. Utiliza TypeScript para segurança de tipos e Vite para builds rápidos durante o desenvolvimento. Ideal para demonstrar arquitetura frontend em avaliações técnicas.
 
-## Notable Techniques
+## Técnicas Notáveis
 
-- **[React Context API](https://react.dev/learn/passing-data-deeply-with-context)**: Used to manage global state across components.
-- **[Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)**: Encapsulates reusable logic for API interaction and form handling.
-- **[CSS Modules](https://github.com/css-modules/css-modules)**: Helps scope styles locally to components.
-- **[React Router](https://reactrouter.com/en/main/start/tutorial)**: Provides structured client-side navigation.
+- **[React Context API](https://react.dev/learn/passing-data-deeply-with-context)**: Utilizada para gerenciar estado global entre os componentes.
+- **[Hooks Personalizados](https://react.dev/learn/reusing-logic-with-custom-hooks)**: Encapsulam lógicas reutilizáveis para interação com API e manipulação de formulários.
+- **[CSS Modules](https://github.com/css-modules/css-modules)**: Auxilia no escopo local de estilos para os componentes.
+- **[React Router](https://reactrouter.com/en/main/start/tutorial)**: Fornece navegação estruturada no cliente.
 
-## Non-obvious Technologies
+## Tecnologias Não Óbvias
 
-- **[Vite](https://vitejs.dev/)**: Development server and build tool offering faster performance than traditional setups like Webpack.
-- **[Axios](https://axios-http.com/)**: For HTTP requests and REST API communication.
-- **[React Icons](https://react-icons.github.io/react-icons/)**: Popular icon library with access to multiple icon sets in a single package.
-- **[React Toastify](https://fkhadra.github.io/react-toastify/)**: Used for non-blocking toast notifications with minimal setup.
+- **[Vite](https://vitejs.dev/)**: Servidor de desenvolvimento e ferramenta de build com performance superior a setups tradicionais como Webpack.
+- **[Axios](https://axios-http.com/)**: Para requisições HTTP e comunicação com APIs REST.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Biblioteca popular de ícones com acesso a vários conjuntos em um único pacote.
+- **[React Toastify](https://fkhadra.github.io/react-toastify/)**: Utilizado para notificações do tipo *toast* de forma não bloqueante e com configuração mínima.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 OrderGenerator/
@@ -43,16 +43,16 @@ OrderGenerator/
 │   └── vite-env.d.ts
 ```
 
-### Directory Descriptions
+### Descrição dos Diretórios
 
-- **apis/**: API configuration and client logic.
-- **assets/styles/**: Global and component-specific styles.
-- **components/**: Reusable UI elements.
-- **helpers/**: Utility functions and constants.
-- **hooks/**: Custom React hooks for common patterns.
-- **interfaces/**: Shared TypeScript interfaces.
-- **layouts/**: Application layout wrappers.
-- **models/**: Data models used throughout the app.
-- **pages/**: Route-based component views.
-- **services/**: Business logic and service layer.
-- **statics/**: Static assets like images and icons.
+- **apis/**: Configuração e lógica do cliente para APIs.
+- **assets/styles/**: Estilos globais e específicos de componentes.
+- **components/**: Elementos de interface reutilizáveis.
+- **helpers/**: Funções utilitárias e constantes.
+- **hooks/**: Hooks personalizados do React para padrões comuns.
+- **interfaces/**: Interfaces TypeScript compartilhadas.
+- **layouts/**: Wrappers de layout da aplicação.
+- **models/**: Modelos de dados utilizados no app.
+- **pages/**: Componentes baseados em rotas.
+- **services/**: Lógica de negócio e camada de serviços.
+- **statics/**: Recursos estáticos como imagens e ícones.
