@@ -1,6 +1,6 @@
 # OrderGenerator
 
-**OrderGenerator** is a frontend application designed to simulate order creation workflows in a streamlined and modular way. It’s built using modern React standards and follows clean component architecture, making it a solid base for scalable UI development.
+**OrderGenerator** is a frontend application designed to a selection process that simulate order creation. It’s built using modern React standards and follows clean component architecture, making it a solid base for scalable UI development.
 
 ## Description
 
