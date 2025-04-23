@@ -21,6 +21,7 @@ function Table(props: ITableProps) {
     const [idToDelete, setIdToDelete] = useState<string>("");
     const [page, setPage] = useState(1);
     const [orderPaginated, setOrderPaginated] = useState<OrderModel[]>([]);
+    const linesLength = 9;
 
     function toggleShowModal() {
         setOpenModal(!openModal);
@@ -68,9 +69,9 @@ function Table(props: ITableProps) {
     }
 
     function getByPage() {
-        let start = (page - 1) * 13;
+        let start = (page - 1) * linesLength;
 
-        let orderSlice = orders.slice(start, start + 13);
+        let orderSlice = orders.slice(start, start + linesLength);
 
         setOrderPaginated(orderSlice);
     }
@@ -79,7 +80,7 @@ function Table(props: ITableProps) {
         let orderPaginatedLength = orderPaginated.length;
         var array: any = [];
 
-        for (let i = 0; i < (9 - orderPaginatedLength); i++) {
+        for (let i = 0; i < (linesLength - orderPaginatedLength); i++) {
             array.push(
                 <tr key={i}>
                     {(orderPaginatedLength === 0 && i === 0) ?
@@ -126,7 +127,7 @@ function Table(props: ITableProps) {
                             </tr>
                         )
                     })}
-                    {orderPaginated.length < 13 && fillEmptyLines()}
+                    {orderPaginated.length < linesLength && fillEmptyLines()}
                 </tbody>
             </table>
             <Pagination total={orders.length} page={page} setPage={setPage} />
