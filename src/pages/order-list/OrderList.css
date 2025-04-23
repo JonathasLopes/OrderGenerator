@@ -1,0 +1,106 @@
+.orderList-container {
+    min-width: 50%;
+    max-width: 75%;
+    padding: 35px 38px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.orderList-container h1 {
+    font-size: 24px;
+    font-weight: Bold;
+}
+
+.orderList-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--yellow-dark-color);
+}
+
+.btn-exit {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.btn-exit span {
+    font-size: 15px;
+    color: var(--yellow-dark-color);
+    margin-right: 7px;
+}
+
+.btn-exit svg {
+    margin-top: 4px;
+}
+
+.btn-exit svg path {
+    color: var(--yellow-dark-color);
+}
+
+.btn-delete-massive-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-delete-massive {
+    background-color: var(--yellow-dark-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background .7s ease;
+}
+
+.btn-delete-massive:hover {
+    background-color: var(--yellow-darker-color);
+}
+
+.filter-container {
+    width: 100%;
+}
+
+.filter-border-container {
+    border: 1px solid var(--yellow-dark-color);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.active-filter,
+.order-type-filter,
+.order-filter {
+    width: 100%;
+}
+
+.order-type-filter,
+.order-filter,
+.btn-filter {
+    margin-left: 10px;
+}
+
+.active-filter,
+.order-filter,
+.order-type-filter {
+    margin-right: 10px;
+}
+
+.btn-filter {
+    height: 40px;
+    width: 200px !important;
+    border-radius: 4px;
+    background-color: var(--yellow-dark-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: background .7s ease;
+}
+
+.btn-filter:hover {
+    background-color: var(--yellow-darker-color);
+}

@@ -1,0 +1,105 @@
+.order-container {
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    min-width: 50%;
+    max-width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.active-orderType-container,
+.quantity-price-container {
+    display: flex;
+    align-items: start;
+}
+
+.active-container,
+.order-type-container,
+.quantity-container,
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+}
+
+.active-container,
+.quantity-container {
+    margin-right: 10px;
+}
+
+.order-type-container,
+.price-container {
+    margin-left: 10px;
+}
+
+.quantity-container,
+.price-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quantity-container input,
+.price-container input {
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.send-data-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.send-data-btn {
+    background-color: var(--yellow-dark-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background .7s ease;
+}
+
+.send-data-btn:hover {
+    background-color: var(--yellow-darker-color);
+}
+
+.send-data-btn:disabled {
+    cursor: not-allowed;
+    background-color: var(--gray-color);
+    color: var(--gray-light-color);
+}
+
+.hr-yellow {
+    border-color: var(--yellow-dark-color);
+    margin: 20px 0px;
+}
+
+.go-to-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.go-to-list a {
+    display: flex;
+    align-items: center;
+    color: var(--yellow-dark-color);
+}
+
+.go-to-list a svg {
+    margin-left: 5px;
+}
+
+.error-msg {
+    color: var(--red-color);
+    font-size: 11px;;
+}

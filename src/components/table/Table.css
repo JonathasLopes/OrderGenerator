@@ -1,0 +1,50 @@
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.table-container td,
+.table-container th {
+    border-bottom: 1px solid var(--yellow-darker-color);
+    padding: 8px;
+    height: 20px;
+}
+
+.table-container th {
+    font-size: 16px;
+    background-color: var(--gray-color);
+}
+
+.table-container tr:nth-child(even) {
+    background-color: var(--yellow-dark-color);
+}
+
+.table-container tr:hover {
+    background-color: var(--yellow-darker-color);
+}
+
+.table-container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: Bold;
+}
+
+.btn-trash {
+    background: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-trash svg {
+    color: var(--primary-color);
+}
+
+.text-center {
+    text-align: center !important;
+    font-size: 16px;
+}

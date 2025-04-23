@@ -1,0 +1,12 @@
+:root {
+    --color-background-black-modal: rgba(0, 0, 0, 0.8);
+    --background-main-color: #1E1E1E;
+    --gray-color: #6d6d6d;
+    --gray-light-color: #acacac;
+    --primary-color: #FFF;
+    --primary-dark-color: #f3f4f6;
+    --secondary-color: #FFD600;
+    --yellow-dark-color: #ae9103;
+    --yellow-darker-color: #5a4b00;
+    --red-color: #FF0000;
+}

@@ -1,0 +1,25 @@
+.pagination-container {
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.pagination-container button {
+    border: 1px solid var(--yellow-dark-color);
+    border-radius: 0;
+    padding: 5px 10px;
+}
+
+.pagination-container .back-button {
+    border-radius: 10px 0 0 10px;
+    background-color: var(--yellow-dark-color);
+}
+
+.pagination-container .next-button {
+    border-radius: 0 10px 10px 0;
+    background-color: var(--yellow-dark-color);
+}
+
+.pagination-container .false {
+    background-color: var(--yellow-dark-color) !important;
+    color: var(--primary-color);
+}
